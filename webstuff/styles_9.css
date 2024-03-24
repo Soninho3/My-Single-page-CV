@@ -127,72 +127,101 @@ header{
 .second-section{
 	
 	height: 100vh;
-	display: flex; 
+	display: flow-root; 
 	background-color: var(--colormixture);
 }
-.div-title{
-	
-	margin: 0px;
-    text-align: center;	
+.SkillsTitle{
 	width: 100vw;
-	height: 50px;
+	text-align: center;
+	font-family: math;
 }
-.div-images-projects{
-	width : 100vw;
-	position: absolute;
-	justify-content: space-evenly;
+.divSkills{
+
 	display: flex;
-	left: -6px;
-	top: 900px;
+	position: relative;
+	justify-content: center;
+	bottom: -100px;
+}
+.Skill1{
+
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+.Skill1 img{
+	height: 100%;
+	width: 100%;
+}
+.Skill2{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
 
 }
-.div-images-projects img{
-	
-	width: 150px; 
+.Skill2 img{
+	width: 100%;
+	height: 100%;
+}
+.Skill3{
+	width: 150px;
 	height: 150px;
+	margin-left: 20px;
 }
-.div-description-projects{
-	
-	width: 100vw;
-	position: absolute;
+.Skill3 img{
+	width: 100%;
+	height: 100%;
+}
+.Skill4{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+
+}
+.Skill4 img{
+	width: 100%;
+	height: 100%;
+}
+.devSkills2{
 	display: flex;
-	justify-content: space-evenly;
-	top: 1100px; 
-	left: -6px
+	position: relative;
+	justify-content: center;
+	bottom: -150px;
+}
+.Skill5{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+.Skill5 img{
+	width: 100%;
+	height: 100%;
 	
 }
-.div-description-projects h3{
-	
-	font-family:math;
+.Skill6{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
 }
-ul{
-	
-	list-style-type:none;
-	display:flex;
-    justify-content: space-evenly;
-    height: 35px;
-    margin-left: -53px; 	
+.Skill6 img{
+	width: 100%;
+	height: 100%;
 	
 }
-.div-link-projects{
-	width: 100vw;
-	position: absolute;
-	top: 1250px; 
-	left: -6px;
-	
+.Skill7{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
 }
-.div-link-projects ul li{
-	
-	background-color: #0A0A0A;
-	border-radius: 20px; 
-	margin-left -41px;
+.Skill7 img{
+	width: 100%;
+	height: 100%;
 }
-.div-link-projects ul li a{
-	
-	color: white;
-	text-decoration: none;
+.Skill8{
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
 }
-.div-link-projects ul li a p{
-	
-	margin-top: 9px; 
+.Skill8 img{
+	width: 100%;
+	height: 100%;
 }
